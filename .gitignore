@@ -1,0 +1,16 @@
+# logs
+*.log
+
+# swp
+*.*.swp
+
+# Modules
+node_modules/
+
+# Donot include the config file
+/config.js
+
+# The Database Schema
+
+
+# Excluding the important assets

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name = "author" content = "Akhil Pandey , Om Bhallamudi">
+    <meta name = "keywords" content = "GUSAC carnival 2015 gusac GITAM " >
+    <meta name = "description" content = "Official Website of GUSAC Carnival, part of GUSAC (GITAM University Science and Activity Center)." >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>This is an Unknown Area </title>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="img/fevicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/bootswatch.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">GUSAC CARNIVAL</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse " id="navbar-main">
+
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/about" >About</a></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/workshops" >Workshops</a></li>
+                <li><a href="/culturals" >Culturals</a></li>
+                <li><a href="/ff" >Film Festival</a></li>
+                <li><a href="/literary" >Literary Fest</a></li>
+                <li><a href="/lectures" >Guest Lectures</a></li>
+                <li><a href="/sponsors" >Sponsors</a></li>
+                <li><a href="/register" >Register</a></li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <br>
+    <p class="text-danger">NOTE 1 : Hey type everything correctly.</p>
+    <form class="form-horizontal" method="POST" action="/controller/finalregister">
+
+            <div class="form-group">
+                <label for="inputName" class="col-lg-2 control-label">Name </label>
+                <div class="col-lg-6">
+                    <input type="text" class="form-control" name="regname" placeholder="Full Name" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-6">
+                    <input type="text" class="form-control" name="regemail" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPhoneNumber" class="col-lg-2 control-label">Phone Number</label>
+                <div class="col-lg-6">
+                    <input type="tel" class="form-control" name="regcontact" placeholder="Phone Number">
+                </div>
+            </div>
+            <div class="form-group">
+                    <label  class="col-lg-2 control-label top-padding-min">Registered For</label>
+                    <div class="col-sm-3 top-padding-min">
+                        <select class="form-control" name="regevent" id="for" required>
+                            <option>---Select---</option>
+                            <option>General Pass</option>
+                            <option>3d Printing Workshop</option>
+                            <option>Quadcopter Workshop</option>
+                            <option>Solar Workshop</option>
+                            <option>Gesture Control Workshop</option>
+                            <option>Automobile Workshop</option>
+                        </select>
+                    </div>
+            </div>
+            <div class="form-group">
+                    <label  class="col-lg-2 control-label top-padding-min">Year</label>
+                    <div class="col-sm-3 top-padding-min">
+                        <select class="form-control" name="regyear" id="year" required>
+                            <option>---Select---</option>
+                            <option>1st Year</option>
+                            <option>2nd Year</option>
+                            <option>3rd Year</option>
+                            <option>4th Year</option>
+                        </select>
+                    </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPhoneNumber" class="col-lg-2 control-label">College</label>
+                <div class="col-lg-6">
+                    <input type="tel" class="form-control" name="regcollege" placeholder="College" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button type="reset" class="btn btn-default ">Cancel</button>
+                    <button type="submit" class="btn btn-primary ">Submit</button>
+                </div>
+            </div>
+    </form>
+</div>
+
+
+
+<script src="js/jquery-2.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootswatch.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name = "author" content = "Akhil Pandey , Om Bhallamudi">
+    <meta name = "keywords" content = "GUSAC carnival 2015 gusac GITAM " >
+    <meta name = "description" content = "Official Website of GUSAC Carnival, part of GUSAC (GITAM University Science and Activity Center)." >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Pro-Nite | Register </title>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="img/fevicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/bootswatch.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">GUSAC CARNIVAL</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse " id="navbar-main">
+
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/about" >About</a></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/workshops" >Workshops</a></li>
+                <li><a href="/culturals" >Culturals</a></li>
+                <li><a href="/ff" >Film Festival</a></li>
+                <li><a href="/literary" >Literary Fest</a></li>
+                <li><a href="/lectures" >Guest Lectures</a></li>
+                <li><a href="/sponsors" >Sponsors</a></li>
+                <li><a href="/register" >Register</a></li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <br>
+    <p class="text-danger">NOTE 1 : For the solo dance competitions ‘Showstopper’ and ‘Streetbattle’ participants need to register by paying INR 500 and this is also your pass to carnival nights 8th and 9th.</p>
+    <p class="text-success">NOTE 2 : For the group dance competition ‘Around the world in 5 mins’ each participating team has to pay INR 500 ( This fee is applicable only for competition and not carnival). In any case if all the group members also want to attend the carnival nights 8th and 9th they all need to register individually paying INR 500.</p>
+    <p class="text-warning">NOTE 3 : The payment for the competition could be done on the day of the event although you need to register yourself or your group prior to the competition..</p>
+    <p class="text-danger">NOTE 4 : The receipts will be given on the day of the competition.</p>
+    <p class="text-info">So Don't worry with any of it. For further info and clarity please call to the given numbers</p>
+    <form class="form-horizontal" method="POST" action="/controller/danceregister">
+
+            <div class="form-group">
+                <label for="inputName" class="col-lg-2 control-label">Name</label>
+                <div class="col-lg-6">
+                    <input type="text" class="form-control" name="bandname" placeholder="Name" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-6">
+                    <input type="text" class="form-control" name="bandemail" placeholder="Email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPhoneNumber" class="col-lg-2 control-label">Phone Number</label>
+                <div class="col-lg-6">
+                    <input type="tel" class="form-control" name="bandcontact" placeholder="Phone Number" required>
+                </div>
+            </div>
+            <div class="form-group">
+                    <label  class="col-lg-2 control-label top-padding-min">Select the event</label>
+                    <div class="col-sm-3 top-padding-min">
+                        <select class="form-control" name="bandevent" id="bandevent">
+                            <option>---Select---</option>
+                            <option>Showstopper</option>
+                            <option>Street Battle</option>
+                            <option>Around the world</option>
+                        </select>
+                    </div>
+            </div>
+            <p class="text-danger">NOTE : Please fill the details and if yourself or your team doesn't contain those many members leave the below fields empty.</p>
+            <div class="form-group">
+                <label for="inputPhoneNumber" class="col-lg-2 control-label"> Member 1 (details):</label>
+                <div class="col-lg-6">
+                    <input type="tel" class="form-control" name="bandmem1" placeholder="Member 1" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPhoneNumber" class="col-lg-2 control-label"> Member 2 (details):</label>
+                <div class="col-lg-6">
+                    <input type="tel" class="form-control" name="bandmem2" placeholder="Member 2">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPhoneNumber" class="col-lg-2 control-label">Member 3 (details):</label>
+                <div class="col-lg-6">
+                    <input type="tel" class="form-control" name="bandmem3" placeholder="Member 3">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPhoneNumber" class="col-lg-2 control-label">Member 4 (details):</label>
+                <div class="col-lg-6">
+                    <input type="tel" class="form-control" name="bandmem4" placeholder="Member 4">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPhoneNumber" class="col-lg-2 control-label">Member 5 (details):</label>
+                <div class="col-lg-6">
+                    <input type="tel" class="form-control" name="bandmem5" placeholder="Member 5">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPhoneNumber" class="col-lg-2 control-label">Member 6 (details):</label>
+                <div class="col-lg-6">
+                    <input type="tel" class="form-control" name="bandmem6" placeholder="Member 6">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPhoneNumber" class="col-lg-2 control-label">Member 7 (details):</label>
+                <div class="col-lg-6">
+                    <input type="tel" class="form-control" name="bandmem7" placeholder="Member 7">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPhoneNumber" class="col-lg-2 control-label">Member 8 (details):</label>
+                <div class="col-lg-6">
+                    <input type="tel" class="form-control" name="bandmem8" placeholder="Member 8">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button type="reset" class="btn btn-default ">Cancel</button>
+                    <button type="submit" class="btn btn-primary ">Submit</button>
+                </div>
+            </div>
+    </form>
+</div>
+
+<footer>
+    <div class="container-fluid footer-design">
+
+        <div class="row text-center">
+            <div class="col-xs-4"><a href="http://facebook.com/gusaccarnival">Team</a> </div>
+            <div class="col-xs-4"><a href="/contact">Contact</a></div>
+            <div class="col-xs-4"><a href="/privacy">Privacy & Terms</a> </div>
+        </div>
+        <div class="row text-center gusac-footer-text"> Handcrafted by Team GUSAC <span class="glyphicon glyphicon-heart"></span> </div>
+    </div>
+</footer>
+
+<script src="js/jquery-2.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootswatch.js"></script>
+</body>
+</html>
